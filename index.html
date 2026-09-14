@@ -126,4 +126,13 @@
 </div>
 
 <script>
-  const audio = document.ge
+  const audio = document.getElementById("audio");
+
+  function goTo(seconds) {
+    audio.currentTime = seconds;
+    audio.play();
+  }
+</script>
+
+</body>
+</html>
